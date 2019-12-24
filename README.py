@@ -75,7 +75,7 @@ def get_matching_files(name):
     return matching_records
  
  
-example_file_name = ['cnn_cat_x.npy', 'cnn_cat_y.npy']
+example_file_name = ['FILE_NAME_x.npy', 'FILE_NAME_y.npy']
 for i in example_file_name:
     example_file_id = get_file_id(i)
     move_from_drive_to_disk([i], [i])
